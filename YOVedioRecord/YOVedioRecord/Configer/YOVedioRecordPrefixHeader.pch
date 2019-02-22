@@ -1,0 +1,21 @@
+//
+//  YOVedioRecordPrefixHeader.pch
+//  YOVedioRecord
+//
+//  Created by yangou on 2019/2/15.
+//  Copyright © 2019 hello. All rights reserved.
+//
+
+#ifndef YOVedioRecordPrefixHeader_pch
+#define YOVedioRecordPrefixHeader_pch
+
+
+#import "MacroHeader.h"
+
+
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* YOVedioRecordPrefixHeader_pch */

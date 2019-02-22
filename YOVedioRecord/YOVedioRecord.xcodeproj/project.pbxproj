@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7353029221F860F0029C2EB /* YOWriterVedioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7353028221F860F0029C2EB /* YOWriterVedioViewController.m */; };
+		E735302C221F86800029C2EB /* YOWModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E735302B221F86800029C2EB /* YOWModel.m */; };
+		E735302F221F87820029C2EB /* AVAssertWriterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E735302E221F87820029C2EB /* AVAssertWriterManager.m */; };
+		E7353032221FEF330029C2EB /* YOAVASSetWriterView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7353031221FEF330029C2EB /* YOAVASSetWriterView.m */; };
+		E7953F99221E26C900B48635 /* YOImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7953F98221E26C900B48635 /* YOImagePickerViewController.m */; };
+		E7953FA0221E3CA900B48635 /* YOFileOutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7953F9F221E3CA900B48635 /* YOFileOutViewController.m */; };
+		E7953FA3221E3D9200B48635 /* YOFileOutVedioView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7953FA2221E3D9200B48635 /* YOFileOutVedioView.m */; };
+		E7953FA6221E3ECA00B48635 /* YOFileOutVedioModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E7953FA5221E3ECA00B48635 /* YOFileOutVedioModel.m */; };
+		E7953FA9221E80B900B48635 /* YOFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E7953FA8221E80B900B48635 /* YOFileManager.m */; };
+		E7953FAC221EB58F00B48635 /* YORecordProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7953FAB221EB58F00B48635 /* YORecordProgressView.m */; };
+		E7953FAF221EBD7A00B48635 /* YOVedioPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7953FAE221EBD7A00B48635 /* YOVedioPlayerViewController.m */; };
+		E7A0CA7322164E090005D58C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A0CA7222164E090005D58C /* AppDelegate.m */; };
+		E7A0CA7B22164E0A0005D58C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7A0CA7A22164E0A0005D58C /* Assets.xcassets */; };
+		E7A0CA8122164E0A0005D58C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A0CA8022164E0A0005D58C /* main.m */; };
+		E7A0CA8B22164E0A0005D58C /* YOVedioRecordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A0CA8A22164E0A0005D58C /* YOVedioRecordTests.m */; };
+		E7A0CA9622164E0A0005D58C /* YOVedioRecordUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A0CA9522164E0A0005D58C /* YOVedioRecordUITests.m */; };
+		E7A0CAA722164E960005D58C /* YORootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A0CAA622164E960005D58C /* YORootViewController.m */; };
+		E7A0CAAF221668290005D58C /* YOHomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A0CAAE221668290005D58C /* YOHomeTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7A0CA8722164E0A0005D58C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7A0CA6622164E090005D58C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7A0CA6D22164E090005D58C;
+			remoteInfo = YOVedioRecord;
+		};
+		E7A0CA9222164E0A0005D58C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7A0CA6622164E090005D58C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7A0CA6D22164E090005D58C;
+			remoteInfo = YOVedioRecord;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E7353027221F860F0029C2EB /* YOWriterVedioViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YOWriterVedioViewController.h; sourceTree = "<group>"; };
+		E7353028221F860F0029C2EB /* YOWriterVedioViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YOWriterVedioViewController.m; sourceTree = "<group>"; };
+		E735302A221F86800029C2EB /* YOWModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YOWModel.h; sourceTree = "<group>"; };
+		E735302B221F86800029C2EB /* YOWModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YOWModel.m; sourceTree = "<group>"; };
+		E735302D221F87820029C2EB /* AVAssertWriterManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVAssertWriterManager.h; sourceTree = "<group>"; };
+		E735302E221F87820029C2EB /* AVAssertWriterManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVAssertWriterManager.m; sourceTree = "<group>"; };
+		E7353030221FEF330029C2EB /* YOAVASSetWriterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YOAVASSetWriterView.h; sourceTree = "<group>"; };
+		E7353031221FEF330029C2EB /* YOAVASSetWriterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YOAVASSetWriterView.m; sourceTree = "<group>"; };
+		E7953F97221E26C900B48635 /* YOImagePickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YOImagePickerViewController.h; sourceTree = "<group>"; };
+		E7953F98221E26C900B48635 /* YOImagePickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YOImagePickerViewController.m; sourceTree = "<group>"; };
+		E7953F9E221E3CA900B48635 /* YOFileOutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YOFileOutViewController.h; sourceTree = "<group>"; };
+		E7953F9F221E3CA900B48635 /* YOFileOutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YOFileOutViewController.m; sourceTree = "<group>"; };
+		E7953FA1221E3D9200B48635 /* YOFileOutVedioView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YOFileOutVedioView.h; sourceTree = "<group>"; };
+		E7953FA2221E3D9200B48635 /* YOFileOutVedioView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YOFileOutVedioView.m; sourceTree = "<group>"; };
+		E7953FA4221E3ECA00B48635 /* YOFileOutVedioModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YOFileOutVedioModel.h; sourceTree = "<group>"; };
+		E7953FA5221E3ECA00B48635 /* YOFileOutVedioModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YOFileOutVedioModel.m; sourceTree = "<group>"; };
+		E7953FA7221E80B900B48635 /* YOFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YOFileManager.h; sourceTree = "<group>"; };
+		E7953FA8221E80B900B48635 /* YOFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YOFileManager.m; sourceTree = "<group>"; };
+		E7953FAA221EB58F00B48635 /* YORecordProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YORecordProgressView.h; sourceTree = "<group>"; };
+		E7953FAB221EB58F00B48635 /* YORecordProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YORecordProgressView.m; sourceTree = "<group>"; };
+		E7953FAD221EBD7A00B48635 /* YOVedioPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YOVedioPlayerViewController.h; sourceTree = "<group>"; };
+		E7953FAE221EBD7A00B48635 /* YOVedioPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YOVedioPlayerViewController.m; sourceTree = "<group>"; };
+		E7A0CA6E22164E090005D58C /* YOVedioRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YOVedioRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7A0CA7122164E090005D58C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E7A0CA7222164E090005D58C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E7A0CA7A22164E0A0005D58C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7A0CA7F22164E0A0005D58C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7A0CA8022164E0A0005D58C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E7A0CA8622164E0A0005D58C /* YOVedioRecordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YOVedioRecordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7A0CA8A22164E0A0005D58C /* YOVedioRecordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YOVedioRecordTests.m; sourceTree = "<group>"; };
+		E7A0CA8C22164E0A0005D58C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7A0CA9122164E0A0005D58C /* YOVedioRecordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YOVedioRecordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7A0CA9522164E0A0005D58C /* YOVedioRecordUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YOVedioRecordUITests.m; sourceTree = "<group>"; };
+		E7A0CA9722164E0A0005D58C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7A0CAA522164E960005D58C /* YORootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YORootViewController.h; sourceTree = "<group>"; };
+		E7A0CAA622164E960005D58C /* YORootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YORootViewController.m; sourceTree = "<group>"; };
+		E7A0CAA9221650380005D58C /* YOVedioRecordPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YOVedioRecordPrefixHeader.pch; sourceTree = "<group>"; };
+		E7A0CAAA221650AD0005D58C /* MacroHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroHeader.h; sourceTree = "<group>"; };
+		E7A0CAAD221668290005D58C /* YOHomeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YOHomeTableViewCell.h; sourceTree = "<group>"; };
+		E7A0CAAE221668290005D58C /* YOHomeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YOHomeTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7A0CA6B22164E090005D58C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7A0CA8322164E0A0005D58C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7A0CA8E22164E0A0005D58C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7353023221F85C30029C2EB /* AVAssertWriter */ = {
+			isa = PBXGroup;
+			children = (
+				E7353026221F85EE0029C2EB /* Model */,
+				E7353025221F85E60029C2EB /* View */,
+				E7353024221F85DE0029C2EB /* Controller */,
+			);
+			path = AVAssertWriter;
+			sourceTree = "<group>";
+		};
+		E7353024221F85DE0029C2EB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E7353027221F860F0029C2EB /* YOWriterVedioViewController.h */,
+				E7353028221F860F0029C2EB /* YOWriterVedioViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E7353025221F85E60029C2EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E7353030221FEF330029C2EB /* YOAVASSetWriterView.h */,
+				E7353031221FEF330029C2EB /* YOAVASSetWriterView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E7353026221F85EE0029C2EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E735302A221F86800029C2EB /* YOWModel.h */,
+				E735302B221F86800029C2EB /* YOWModel.m */,
+				E735302D221F87820029C2EB /* AVAssertWriterManager.h */,
+				E735302E221F87820029C2EB /* AVAssertWriterManager.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E7953F93221E25AC00B48635 /* UIImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				E7953F96221E25F600B48635 /* Model */,
+				E7953F95221E25EB00B48635 /* View */,
+				E7953F94221E25DF00B48635 /* Controller */,
+			);
+			path = UIImagePickerController;
+			sourceTree = "<group>";
+		};
+		E7953F94221E25DF00B48635 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E7953F97221E26C900B48635 /* YOImagePickerViewController.h */,
+				E7953F98221E26C900B48635 /* YOImagePickerViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E7953F95221E25EB00B48635 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E7953F96221E25F600B48635 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E7953F9A221E3C3D00B48635 /* AVCaptureMovieFileOut */ = {
+			isa = PBXGroup;
+			children = (
+				E7953F9D221E3C8600B48635 /* Model */,
+				E7953F9C221E3C7700B48635 /* View */,
+				E7953F9B221E3C6E00B48635 /* Controller */,
+			);
+			path = AVCaptureMovieFileOut;
+			sourceTree = "<group>";
+		};
+		E7953F9B221E3C6E00B48635 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E7953F9E221E3CA900B48635 /* YOFileOutViewController.h */,
+				E7953F9F221E3CA900B48635 /* YOFileOutViewController.m */,
+				E7953FAD221EBD7A00B48635 /* YOVedioPlayerViewController.h */,
+				E7953FAE221EBD7A00B48635 /* YOVedioPlayerViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E7953F9C221E3C7700B48635 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E7953FA1221E3D9200B48635 /* YOFileOutVedioView.h */,
+				E7953FA2221E3D9200B48635 /* YOFileOutVedioView.m */,
+				E7953FAA221EB58F00B48635 /* YORecordProgressView.h */,
+				E7953FAB221EB58F00B48635 /* YORecordProgressView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E7953F9D221E3C8600B48635 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E7953FA4221E3ECA00B48635 /* YOFileOutVedioModel.h */,
+				E7953FA5221E3ECA00B48635 /* YOFileOutVedioModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E7A0CA6522164E090005D58C = {
+			isa = PBXGroup;
+			children = (
+				E7A0CA7022164E090005D58C /* YOVedioRecord */,
+				E7A0CA8922164E0A0005D58C /* YOVedioRecordTests */,
+				E7A0CA9422164E0A0005D58C /* YOVedioRecordUITests */,
+				E7A0CA6F22164E090005D58C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7A0CA6F22164E090005D58C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7A0CA6E22164E090005D58C /* YOVedioRecord.app */,
+				E7A0CA8622164E0A0005D58C /* YOVedioRecordTests.xctest */,
+				E7A0CA9122164E0A0005D58C /* YOVedioRecordUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7A0CA7022164E090005D58C /* YOVedioRecord */ = {
+			isa = PBXGroup;
+			children = (
+				E7353023221F85C30029C2EB /* AVAssertWriter */,
+				E7953F9A221E3C3D00B48635 /* AVCaptureMovieFileOut */,
+				E7953F93221E25AC00B48635 /* UIImagePickerController */,
+				E7A0CAA8221650040005D58C /* Configer */,
+				E7A0CAA322164E350005D58C /* Home */,
+				E7A0CA7122164E090005D58C /* AppDelegate.h */,
+				E7A0CA7222164E090005D58C /* AppDelegate.m */,
+				E7953FA7221E80B900B48635 /* YOFileManager.h */,
+				E7953FA8221E80B900B48635 /* YOFileManager.m */,
+				E7A0CA7A22164E0A0005D58C /* Assets.xcassets */,
+				E7A0CA7F22164E0A0005D58C /* Info.plist */,
+				E7A0CA8022164E0A0005D58C /* main.m */,
+			);
+			path = YOVedioRecord;
+			sourceTree = "<group>";
+		};
+		E7A0CA8922164E0A0005D58C /* YOVedioRecordTests */ = {
+			isa = PBXGroup;
+			children = (
+				E7A0CA8A22164E0A0005D58C /* YOVedioRecordTests.m */,
+				E7A0CA8C22164E0A0005D58C /* Info.plist */,
+			);
+			path = YOVedioRecordTests;
+			sourceTree = "<group>";
+		};
+		E7A0CA9422164E0A0005D58C /* YOVedioRecordUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E7A0CA9522164E0A0005D58C /* YOVedioRecordUITests.m */,
+				E7A0CA9722164E0A0005D58C /* Info.plist */,
+			);
+			path = YOVedioRecordUITests;
+			sourceTree = "<group>";
+		};
+		E7A0CAA322164E350005D58C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E7A0CAAC2216680B0005D58C /* View */,
+				E7A0CAA422164E3F0005D58C /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E7A0CAA422164E3F0005D58C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E7A0CAA522164E960005D58C /* YORootViewController.h */,
+				E7A0CAA622164E960005D58C /* YORootViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E7A0CAA8221650040005D58C /* Configer */ = {
+			isa = PBXGroup;
+			children = (
+				E7A0CAA9221650380005D58C /* YOVedioRecordPrefixHeader.pch */,
+				E7A0CAAA221650AD0005D58C /* MacroHeader.h */,
+			);
+			path = Configer;
+			sourceTree = "<group>";
+		};
+		E7A0CAAC2216680B0005D58C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E7A0CAAD221668290005D58C /* YOHomeTableViewCell.h */,
+				E7A0CAAE221668290005D58C /* YOHomeTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7A0CA6D22164E090005D58C /* YOVedioRecord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7A0CA9A22164E0A0005D58C /* Build configuration list for PBXNativeTarget "YOVedioRecord" */;
+			buildPhases = (
+				E7A0CA6A22164E090005D58C /* Sources */,
+				E7A0CA6B22164E090005D58C /* Frameworks */,
+				E7A0CA6C22164E090005D58C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YOVedioRecord;
+			productName = YOVedioRecord;
+			productReference = E7A0CA6E22164E090005D58C /* YOVedioRecord.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7A0CA8522164E0A0005D58C /* YOVedioRecordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7A0CA9D22164E0A0005D58C /* Build configuration list for PBXNativeTarget "YOVedioRecordTests" */;
+			buildPhases = (
+				E7A0CA8222164E0A0005D58C /* Sources */,
+				E7A0CA8322164E0A0005D58C /* Frameworks */,
+				E7A0CA8422164E0A0005D58C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7A0CA8822164E0A0005D58C /* PBXTargetDependency */,
+			);
+			name = YOVedioRecordTests;
+			productName = YOVedioRecordTests;
+			productReference = E7A0CA8622164E0A0005D58C /* YOVedioRecordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E7A0CA9022164E0A0005D58C /* YOVedioRecordUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7A0CAA022164E0A0005D58C /* Build configuration list for PBXNativeTarget "YOVedioRecordUITests" */;
+			buildPhases = (
+				E7A0CA8D22164E0A0005D58C /* Sources */,
+				E7A0CA8E22164E0A0005D58C /* Frameworks */,
+				E7A0CA8F22164E0A0005D58C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7A0CA9322164E0A0005D58C /* PBXTargetDependency */,
+			);
+			name = YOVedioRecordUITests;
+			productName = YOVedioRecordUITests;
+			productReference = E7A0CA9122164E0A0005D58C /* YOVedioRecordUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7A0CA6622164E090005D58C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = hello;
+				TargetAttributes = {
+					E7A0CA6D22164E090005D58C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					E7A0CA8522164E0A0005D58C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E7A0CA6D22164E090005D58C;
+					};
+					E7A0CA9022164E0A0005D58C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E7A0CA6D22164E090005D58C;
+					};
+				};
+			};
+			buildConfigurationList = E7A0CA6922164E090005D58C /* Build configuration list for PBXProject "YOVedioRecord" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7A0CA6522164E090005D58C;
+			productRefGroup = E7A0CA6F22164E090005D58C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7A0CA6D22164E090005D58C /* YOVedioRecord */,
+				E7A0CA8522164E0A0005D58C /* YOVedioRecordTests */,
+				E7A0CA9022164E0A0005D58C /* YOVedioRecordUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7A0CA6C22164E090005D58C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7A0CA7B22164E0A0005D58C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7A0CA8422164E0A0005D58C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7A0CA8F22164E0A0005D58C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7A0CA6A22164E090005D58C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7953FA6221E3ECA00B48635 /* YOFileOutVedioModel.m in Sources */,
+				E735302F221F87820029C2EB /* AVAssertWriterManager.m in Sources */,
+				E7953FA3221E3D9200B48635 /* YOFileOutVedioView.m in Sources */,
+				E7953FAC221EB58F00B48635 /* YORecordProgressView.m in Sources */,
+				E735302C221F86800029C2EB /* YOWModel.m in Sources */,
+				E7353032221FEF330029C2EB /* YOAVASSetWriterView.m in Sources */,
+				E7353029221F860F0029C2EB /* YOWriterVedioViewController.m in Sources */,
+				E7A0CAAF221668290005D58C /* YOHomeTableViewCell.m in Sources */,
+				E7A0CAA722164E960005D58C /* YORootViewController.m in Sources */,
+				E7A0CA8122164E0A0005D58C /* main.m in Sources */,
+				E7953FA9221E80B900B48635 /* YOFileManager.m in Sources */,
+				E7A0CA7322164E090005D58C /* AppDelegate.m in Sources */,
+				E7953F99221E26C900B48635 /* YOImagePickerViewController.m in Sources */,
+				E7953FAF221EBD7A00B48635 /* YOVedioPlayerViewController.m in Sources */,
+				E7953FA0221E3CA900B48635 /* YOFileOutViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7A0CA8222164E0A0005D58C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7A0CA8B22164E0A0005D58C /* YOVedioRecordTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7A0CA8D22164E0A0005D58C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7A0CA9622164E0A0005D58C /* YOVedioRecordUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7A0CA8822164E0A0005D58C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7A0CA6D22164E090005D58C /* YOVedioRecord */;
+			targetProxy = E7A0CA8722164E0A0005D58C /* PBXContainerItemProxy */;
+		};
+		E7A0CA9322164E0A0005D58C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7A0CA6D22164E090005D58C /* YOVedioRecord */;
+			targetProxy = E7A0CA9222164E0A0005D58C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E7A0CA9822164E0A0005D58C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E7A0CA9922164E0A0005D58C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7A0CA9B22164E0A0005D58C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F67BHAXG5X;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YOVedioRecord/Configer/YOVedioRecordPrefixHeader.pch";
+				INFOPLIST_FILE = YOVedioRecord/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangouyaya.YOVedioRecord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7A0CA9C22164E0A0005D58C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F67BHAXG5X;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YOVedioRecord/Configer/YOVedioRecordPrefixHeader.pch";
+				INFOPLIST_FILE = YOVedioRecord/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangouyaya.YOVedioRecord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E7A0CA9E22164E0A0005D58C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YOVedioRecordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangouyaya.YOVedioRecordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YOVedioRecord.app/YOVedioRecord";
+			};
+			name = Debug;
+		};
+		E7A0CA9F22164E0A0005D58C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YOVedioRecordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangouyaya.YOVedioRecordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YOVedioRecord.app/YOVedioRecord";
+			};
+			name = Release;
+		};
+		E7A0CAA122164E0A0005D58C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YOVedioRecordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangouyaya.YOVedioRecordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YOVedioRecord;
+			};
+			name = Debug;
+		};
+		E7A0CAA222164E0A0005D58C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YOVedioRecordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangouyaya.YOVedioRecordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YOVedioRecord;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7A0CA6922164E090005D58C /* Build configuration list for PBXProject "YOVedioRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7A0CA9822164E0A0005D58C /* Debug */,
+				E7A0CA9922164E0A0005D58C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7A0CA9A22164E0A0005D58C /* Build configuration list for PBXNativeTarget "YOVedioRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7A0CA9B22164E0A0005D58C /* Debug */,
+				E7A0CA9C22164E0A0005D58C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7A0CA9D22164E0A0005D58C /* Build configuration list for PBXNativeTarget "YOVedioRecordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7A0CA9E22164E0A0005D58C /* Debug */,
+				E7A0CA9F22164E0A0005D58C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7A0CAA022164E0A0005D58C /* Build configuration list for PBXNativeTarget "YOVedioRecordUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7A0CAA122164E0A0005D58C /* Debug */,
+				E7A0CAA222164E0A0005D58C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7A0CA6622164E090005D58C /* Project object */;
+}
